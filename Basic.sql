@@ -17,6 +17,9 @@ alter table datainfo add gpa int;/* alter table (table name) add (column name) d
 alter table datainto drop gap;
 /* you want view your table*/
 describe gpa /* describe table name*/
-/* insert ah value for table/*
+/* insert ah value for table*/
+insert into gpa value(1,"diruhan");
+/* view all data in table*/
+select *from gpa;
 
 
